@@ -238,9 +238,6 @@ const Utils = (function () {
 })();
 
 window.addEventListener('load', () => {
-  // Initialize share dropdown
-  initShareDropdown();
-
   // Dark mode functionality
   document.querySelector('#darkMode').addEventListener('click', () => {
     const html = document.documentElement.classList;
