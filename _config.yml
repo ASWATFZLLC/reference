@@ -7,7 +7,7 @@ title: CheatSheets.ziwo.tech
 subtitle: "Ultimate Cheat for Developers"
 description: "Share quick reference and cheat sheet for developers"
 keywords: cheat,sheet,cheatsheets,reference,programming,code table,snippets,linux,command,shortcuts,developers
-author: Fechin
+author: CheatSheets
 language: en
 timezone: "UTC"
 
@@ -72,12 +72,12 @@ seo:
   # Default image for social sharing
   default_image: "/assets/image/preview.png"
   # Author information
-  author_name: "Fechin"
+  author_name: "CheatSheets"
   author_url: "https://cheatsheets.ziwo.tech"
   # Social media configuration
   social:
-    twitter: "Fechin"
-    github: "Fechin/reference"
+    twitter: ""
+    github: ""
   # Site type
   site_type: "Educational Technology Platform"
   # Target audience
