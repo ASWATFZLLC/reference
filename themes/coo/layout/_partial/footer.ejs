@@ -8,9 +8,9 @@
                         Top <span class="text-slate-500">&nbsp;Cheatsheet</span>
                     </h3>
                     <div class="space-y-3">
-                        <% 
+                        <%
                         const topPostsData = topPosts(3);
-                        topPostsData.forEach(function(post, index) { 
+                        topPostsData.forEach(function(post, index) {
                         %>
                             <a href="<%- url_for(post.path) %>" title="<%= post.title %> Cheatsheet - Popular Quick Reference" class="group flex items-center p-3 bg-white dark:bg-slate-700 rounded-lg border border-slate-200 dark:border-slate-600 hover:border-indigo-300 dark:hover:border-indigo-500 transition-all duration-200 hover:shadow-md">
                                 <div class="w-8 h-8 flex items-center justify-center flex-shrink-0 mr-3 text-indigo-600">
@@ -33,9 +33,9 @@
                         Recent <span class="text-slate-500">&nbsp;Cheatsheet</span>
                     </h3>
                     <div class="space-y-3">
-                        <% 
+                        <%
                         const recentPosts = site.posts.sort('date', -1).filter(post => post.layout !== "note").data.slice(0, 3);
-                        recentPosts.forEach(function(post, index) { 
+                        recentPosts.forEach(function(post, index) {
                         %>
                             <a href="<%- url_for(post.path) %>" title="<%= post.title %> Cheatsheet - Latest Quick Reference" class="group flex items-center p-3 bg-white dark:bg-slate-700 rounded-lg border border-slate-200 dark:border-slate-600 hover:border-blue-300 dark:hover:border-blue-500 transition-all duration-200 hover:shadow-md">
                                 <div class="w-8 h-8 flex items-center justify-center flex-shrink-0 mr-3 text-blue-600">
@@ -75,7 +75,7 @@
                                 </svg>
                             </div>
                         </a>
-                        
+
                         <a href="https://dorefer.com?ref=cheatsheets" target="_blank" data-no-nofollow="true" title="doRefer - Find the best referral codes and signup bonuses" class="group flex items-center p-3 bg-white dark:bg-slate-700 rounded-lg border border-slate-200 dark:border-slate-600 hover:border-purple-300 dark:hover:border-purple-500 transition-all duration-200 hover:shadow-md">
                             <div class="w-8 h-8 flex items-center justify-center flex-shrink-0 mr-3">
                                 <img src="/assets/icon/dorefer.png" alt="doRefer logo" class="w-6 h-6 rounded">
@@ -90,7 +90,7 @@
                                 </svg>
                             </div>
                         </a>
-                        
+
                         <a href="https://fionaai.com?ref=cheatsheets" target="_blank" data-no-nofollow="true" title="Fiona AI - Your intelligent Chrome AI assistant for productivity" class="group flex items-center p-3 bg-white dark:bg-slate-700 rounded-lg border border-slate-200 dark:border-slate-600 hover:border-purple-300 dark:hover:border-purple-500 transition-all duration-200 hover:shadow-md">
                             <div class="w-8 h-8 flex items-center justify-center flex-shrink-0 mr-3">
                                 <img src="/assets/icon/fionaai.png" alt="Fiona AI logo" class="w-6 h-6 rounded">
@@ -117,7 +117,7 @@
                         Share quick reference and cheat sheet for developers.
                     </p>
                     <div class="space-y-2 text-sm">
-                        <div><a href="/about/" title="About - Learn more about cheatsheets.zip" class="text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400">About</a></div>
+                        <div><a href="/about/" title="About - Learn more about cheatsheets.ziwo.tech" class="text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400">About</a></div>
                         <div><a href="/notes/" title="Notes - Browse our developer notes and tutorials" class="text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400">Notes</a></div>
                         <div><a href="/support/" title="Support - Get help and support our project" class="text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400">Support</a></div>
                     </div>
@@ -130,7 +130,7 @@
     <% } %>
     <div class="max-container flex flex-col sm:flex-row items-center ">
         <p class="py-2 md:py-3 text-slate-500 text-sm text-center w-full">
-            © <%= new Date().getFullYear() %> cheatsheets.zip, All rights reserved.
+            © <%= new Date().getFullYear() %> cheatsheets.ziwo.tech, All rights reserved.
         </p>
     </div>
 </footer>

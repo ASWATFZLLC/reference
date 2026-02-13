@@ -1,4 +1,4 @@
-// CheatSheets.zip Service Worker
+// CheatSheets.ziwo.tech Service Worker
 const STATIC_CACHE = 'cheatsheets-static-v1';
 const DYNAMIC_CACHE = 'cheatsheets-dynamic-v1';
 
@@ -147,15 +147,15 @@ function createOfflineResponse(pathname) {
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Offline - CheatSheets.zip</title>
+        <title>Offline - CheatSheets.ziwo.tech</title>
         <style>
-          body { 
+          body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            height: 100vh; 
-            margin: 0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
             background: #f8f9fa;
             color: #333;
           }
